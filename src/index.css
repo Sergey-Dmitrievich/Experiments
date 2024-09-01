@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  transition: .4s ease-in-out;
+}
+@font-face {
+	font-family: kamerik;
+	src: url(../src/fonts/kamerik205-heavy.woff2);
+	font-weight: 900;
+}
+body{
+  background-color: #202020;
+  font-size: 16px;
+  color: #fff;
+  font-family: kamerik;
+}
+button{
+  background-color: #e08594;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 4px 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #c77683;
+}
